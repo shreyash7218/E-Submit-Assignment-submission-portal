@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 // Mock data for users and departments
 const initialUsers = [
-  { id: 1, name: 'John Doe', role: 'student', prn: 'PRN001', subject: 'All', email: 'john@example.com' },
-  { id: 2, name: 'Jane Smith', role: 'teacher', prn: 'TCH001', subject: 'C++', email: 'jane@example.com' },
-  { id: 3, name: 'Mike Johnson', role: 'teacher', prn: 'TCH002', subject: 'Java', email: 'mike@example.com' },
-  { id: 4, name: 'Sarah Wilson', role: 'student', prn: 'PRN002', subject: 'All', email: 'sarah@example.com' }
+  { id: 1, name: 'Rajesh Kanna', role: 'student', prn: 'PRN001', subject: 'All', email: 'Rajesh@example.com' },
+  { id: 2, name: 'Mrunal Thakur', role: 'teacher', prn: 'TCH001', subject: 'C++', email: 'Mrunal@example.com' },
+  { id: 3, name: 'Atmaram Bhide', role: 'teacher', prn: 'TCH002', subject: 'Java', email: 'Atmaram@example.com' },
+  { id: 4, name: 'Amit Modi', role: 'student', prn: 'PRN002', subject: 'All', email: 'amit@example.com' }
 ];
 
 const subjects = [

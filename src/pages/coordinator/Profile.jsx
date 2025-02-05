@@ -2,9 +2,9 @@ import React from 'react';
 
 // Mock coordinator data
 const coordinatorData = {
-  name: 'Prof. Michael Chen',
+  name: 'Prof. mahesh Jha',
   id: 'COORD001',
-  email: 'michael.chen@example.com',
+  email: 'mahesh.Jha@example.com',
   department: 'Academic Administration',
   role: 'Course Coordinator',
   experience: '12 years',

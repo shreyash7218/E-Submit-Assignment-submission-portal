@@ -2,16 +2,16 @@ import React from 'react';
 
 // Mock teacher data
 const teacherData = {
-  name: 'Dr. Sarah Wilson',
+  name: 'Dr. Amit Modi',
   id: 'TCH001',
   email: 'sarah.wilson@example.com',
   department: 'Computer Science',
   subjects: ['C++', 'Data Structures'],
   experience: '8 years',
   students: [
-    { name: 'John Doe', subject: 'C++', grade: 'A', status: 'Active' },
-    { name: 'Jane Smith', subject: 'C++', grade: 'B+', status: 'Active' },
-    { name: 'Mike Johnson', subject: 'Data Structures', grade: 'A-', status: 'Active' }
+    { name: 'Rajesh Kanna', subject: 'C++', grade: 'A', status: 'Active' },
+    { name: 'Mrunal Thakur', subject: 'C++', grade: 'B+', status: 'Active' },
+    { name: 'Atmaram Bhide', subject: 'Data Structures', grade: 'A-', status: 'Active' }
   ]
 };
 

@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const initialAssessments = [
   { 
     id: 1, 
-    student: 'John Doe', 
+    student: 'Rajesh Kanna', 
     prn: 'PRN001',
     subject: 'C++', 
     assignment: 'Pointers Exercise', 
@@ -22,7 +22,7 @@ int main() {
   },
   { 
     id: 2, 
-    student: 'Jane Smith', 
+    student: 'Mrunal Thakur', 
     prn: 'PRN002',
     subject: 'Java', 
     assignment: 'OOP Concepts', 
@@ -40,7 +40,7 @@ int main() {
   },
   { 
     id: 3, 
-    student: 'Mike Johnson', 
+    student: 'Atmaram Bhide', 
     prn: 'PRN003',
     subject: 'DSA', 
     assignment: 'Binary Trees', 

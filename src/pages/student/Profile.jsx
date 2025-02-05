@@ -2,11 +2,10 @@ import React from 'react';
 
 // Mock student data
 const studentData = {
-  name: 'John Doe',
+  name: 'Rajesh Kanna',
   prn: 'PRN001',
   email: 'john.doe@example.com',
-  course: 'Computer Science',
-  year: '3rd Year',
+  course: 'DAC',
   assignments: [
     { id: 1, subject: 'C++', title: 'Pointers Exercise', grade: 'A', feedback: 'Excellent work!' },
     { id: 2, subject: 'Java', title: 'OOP Concepts', grade: 'B+', feedback: 'Good understanding of concepts.' },
@@ -40,10 +39,6 @@ function Profile() {
               <div>
                 <label className="text-sm text-gray-500">Course</label>
                 <p className="font-medium">{studentData.course}</p>
-              </div>
-              <div>
-                <label className="text-sm text-gray-500">Year</label>
-                <p className="font-medium">{studentData.year}</p>
               </div>
             </div>
           </div>

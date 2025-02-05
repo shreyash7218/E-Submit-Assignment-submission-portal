@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const initialQueries = [
   {
     id: 1,
-    student: 'John Doe',
+    student: 'Rajesh Kanna',
     subject: 'C++',
     question: 'How do virtual functions work in C++?',
     timestamp: '2024-03-15 10:30 AM',
@@ -13,7 +13,7 @@ const initialQueries = [
   },
   {
     id: 2,
-    student: 'Jane Smith',
+    student: 'Mrunal Rhakur',
     subject: 'Java',
     question: 'What is the difference between ArrayList and LinkedList?',
     timestamp: '2024-03-15 11:45 AM',

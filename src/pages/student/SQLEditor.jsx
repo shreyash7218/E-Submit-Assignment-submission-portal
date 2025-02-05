@@ -62,7 +62,7 @@ function SQLEditor() {
                 <tbody className="bg-white divide-y divide-gray-200">
                   <tr>
                     <td className="px-6 py-4 whitespace-nowrap">1</td>
-                    <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+                    <td className="px-6 py-4 whitespace-nowrap">Rajesh Kanna</td>
                     <td className="px-6 py-4 whitespace-nowrap">$75,000</td>
                   </tr>
                 </tbody>
