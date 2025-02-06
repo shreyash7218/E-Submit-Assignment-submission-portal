@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaBars } from 'react-icons/fa'; // Importing a menu icon
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,18 @@ function Navbar() {
               </Link>
             </div>
             
-            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+            {/* Menu Icon for Small Screens */}
+            <div className="ml-6 flex items-center sm:hidden">
+              <button 
+                onClick={() => setIsOpen(!isOpen)} 
+                className="text-gray-500 hover:text-gray-700"
+              >
+                <FaBars />
+              </button>
+            </div>
+
+            {/* Navigation Links for Larger Screens */}
+            <div className={`hidden sm:ml-6 sm:flex sm:space-x-8`}>
               {navigation[userRole].map((item) => (
                 <Link
                   key={item.name}
@@ -71,9 +83,25 @@ function Navbar() {
             </button>
           </div>
         </div>
+        
+        {/* Dropdown Menu for Small Screens */}
+        {isOpen && (
+          <div className="sm:hidden">
+            {navigation[userRole].map((item) => (
+              <Link
+                key={item.name}
+                to={item.href}
+                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                onClick={() => setIsOpen(false)} // Close menu on item click
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
     </nav>
   );
 }
 
-export default Navbar
+export default Navbar;
