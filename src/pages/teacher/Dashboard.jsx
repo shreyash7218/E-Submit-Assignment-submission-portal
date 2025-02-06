@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import QuerySystem from '../../components/QuerySystem';
 
 // Mock data for pending assessments and student performance
 const initialAssessments = [
   { 
     id: 1, 
-    student: 'Rajesh Kanna', 
+    student: 'John Doe', 
     prn: 'PRN001',
     subject: 'C++', 
     assignment: 'Pointers Exercise', 
@@ -22,7 +23,7 @@ int main() {
   },
   { 
     id: 2, 
-    student: 'Mrunal Thakur', 
+    student: 'Jane Smith', 
     prn: 'PRN002',
     subject: 'Java', 
     assignment: 'OOP Concepts', 
@@ -40,7 +41,7 @@ int main() {
   },
   { 
     id: 3, 
-    student: 'Atmaram Bhide', 
+    student: 'Mike Johnson', 
     prn: 'PRN003',
     subject: 'DSA', 
     assignment: 'Binary Trees', 
@@ -88,7 +89,7 @@ function TeacherDashboard() {
     <div className="space-y-6">
       <h1 className="text-3xl font-bold text-gray-900">Teacher Dashboard</h1>
       
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 gap-6">
         <div className="card">
           <h2 className="text-xl font-semibold mb-4">Pending Assessments</h2>
           <div className="overflow-x-auto">
@@ -206,6 +207,10 @@ function TeacherDashboard() {
             </div>
           </div>
         )}
+
+        <div className="card">
+          <QuerySystem userRole="teacher" />
+        </div>
       </div>
     </div>
   );
