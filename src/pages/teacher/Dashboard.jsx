@@ -4,7 +4,7 @@ import QuerySystem from '../../components/QuerySystem';
 // Mock data for pending assessments and student performance
 const initialAssessments = [
   { 
-    id: 1, 
+    id: 1,
     student: 'John Doe', 
     prn: 'PRN001',
     subject: 'C++', 
