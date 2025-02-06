@@ -5,7 +5,7 @@ import QuerySystem from '../../components/QuerySystem';
 const initialAssessments = [
   { 
     id: 1,
-    student: 'John Doe', 
+    student: 'jithesh shaha', 
     prn: 'PRN001',
     subject: 'C++', 
     assignment: 'Pointers Exercise', 
@@ -23,7 +23,7 @@ int main() {
   },
   { 
     id: 2, 
-    student: 'Jane Smith', 
+    student: 'ramesh jadhav', 
     prn: 'PRN002',
     subject: 'Java', 
     assignment: 'OOP Concepts', 
@@ -41,7 +41,7 @@ int main() {
   },
   { 
     id: 3, 
-    student: 'Mike Johnson', 
+    student: 'mayur funde', 
     prn: 'PRN003',
     subject: 'DSA', 
     assignment: 'Binary Trees', 
